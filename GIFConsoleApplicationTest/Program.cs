@@ -11,6 +11,7 @@ namespace GIFConsoleApplicationTest
         static void Main(string[] args)
         {
             Console.WriteLine("Started from the bottom now we are here");
+            Console.WriteLine("This program is working great");
         }
     }
 }
