@@ -12,6 +12,18 @@ namespace GIFConsoleApplicationTest
         {
             Console.WriteLine("Started from the bottom now we are here");
             Console.WriteLine("This program is working great");
+
+            Employee employee = new Employee();
+
+            employee.name = "Taiwo Emmanuel Omolaja";
+
+            Console.WriteLine(employee.name);
+
+        }
+        public class Employee
+        {
+            public string name { get; set; }
+
         }
     }
 }
